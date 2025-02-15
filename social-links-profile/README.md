@@ -43,51 +43,45 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1️⃣ Properly structuring HTML lists: I learned that <a> tags should go inside <li> instead of wrapping around them for valid HTML.
 
-To see how you can add code snippets, see below:
+2️⃣ CSS hover effects: Using hover on both <li> and <a> improves the user experience.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+3️⃣ Responsive design best practices: Using max-width on images prevents layout breaking on different screen sizes.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+4️⃣ Accessibility improvements: Ensuring links are properly structured enhances usability for screen readers.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+As I move forward with more projects, I want to focus on improving the following areas:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+1️⃣ Accessibility (a11y) – Ensuring all interactive elements are properly structured for screen readers and keyboard navigation. I plan to research ARIA attributes and semantic HTML best practices to make my projects more inclusive.
+
+2️⃣ Responsive Design – While I applied mobile-first principles in this project, I want to dive deeper into CSS media queries, flexbox vs. grid, and using clamp() and minmax() for better fluid layouts.
+
+3️⃣ Reusable Components – As I transition to frameworks like React, I want to build UI components that are modular and scalable for future projects.
+
+4️⃣ CSS Animations & Microinteractions – Adding subtle hover effects, transitions, and animations using keyframes, GSAP, or Framer Motion to enhance user experience.
+
+5️⃣ JavaScript for Interactivity – Right now, my project is static, but in future projects, I want to use JavaScript to handle dynamic content, such as form validation, API fetching, or dark mode toggles.
+
+6️⃣ Performance Optimization – Exploring lazy loading, image optimization, and CSS/JS minification to improve page load speeds.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+1️⃣ [MDN Web Docs](https://developer.mozilla.org/) - My go-to resource for learning HTML, CSS, and JavaScript. It provides well-documented guides, examples, and references.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+2️⃣ [ChatGPT](https://chat.openai.com/) - Used for code reviews, debugging, and getting explanations on tricky concepts. Helped me refine my code and improve structure.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [Bukeka Nxumalo](https://github.com/Indodanazwide)
+- Frontend Mentor - [@Indodanazwide](https://www.frontendmentor.io/profile/Indodanazwide)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I’d like to give a huge thanks to Frontend Mentor for providing this challenge, which helped me improve my HTML, CSS, and responsive design skills.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+A special shout-out to MDN Web Docs for being an amazing learning resource and ChatGPT for assisting with code reviews and debugging.
+
+I also want to acknowledge the Frontend Mentor community and other developers who have shared their solutions—seeing different approaches has been really insightful!

@@ -15,7 +15,7 @@
     --mobile-width: 375px;
     --desktop-width: 1440px;
 }
-  
+
 * {
     padding: 0;
     margin: 0;
@@ -28,44 +28,56 @@ body, main, section {
     align-items: center;
 }
 
+main, ul li {
+    border-radius: .7rem;
+}
+
+li {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--green);
+}
+
 body {
     background-color: var(--grey-900);
     font-size: var(--font-size-body);
     font-family: var(--font-family);
     max-width: var(--desktop-width);
     color: var(--white);
+    text-align: center;
     min-height: 100vh;
-}
-
-main, ul li {
-    border-radius: .7rem;
+    padding: 2rem;
 }
 
 main {
     background-color: var(--grey-800);
     font-weight: var(--font-weight-semibold);
     flex-direction: column;
-    min-height: 80vh;
-    max-height: 95vh;
-    min-width: 20vw;
+    min-height: 70vh;
+    max-height: 90vh;
+    min-width: 30vw;
     padding: 2rem;
 }
 
+section {
+    flex-direction: column;
+    min-width: 100%;
+}
+
 h1 {
-    margin: 1.2rem 0 1rem;
     font-weight: var(--font-weight-bold);
+    margin: 1.1rem 0 1rem;
 }
 
 .header p {
     color: var(--green);
 }
 
-section {
-    flex-direction: column;
-}
-
 img {
-    width: 50%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
@@ -82,8 +94,8 @@ img:active {
 }
 
 .description {
-    margin: 1.2rem 0;
     font-weight: var(--font-weight-regular);
+    margin: 1.1rem 0;
 }
 
 ul {
@@ -91,11 +103,10 @@ ul {
 }
 
 ul li {
-    list-style: none;
+    background-color: var(--grey-700);
     text-align: center;
     padding: 1rem 4rem;
-    margin: 1rem 0;
-    background-color: var(--grey-700);
+    margin: .7rem 0;
     transition: .5s;
     cursor: pointer;
 }
@@ -109,9 +120,11 @@ ul li:active {
     transform: scale(1.1);
 }
 
-a {
+ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
     color: var(--white);
-    text-decoration: none;
 }
 
 .footer {
@@ -119,13 +132,11 @@ a {
 }
 
 .footer p {
-    text-align: center;
     line-height: 1.5;
     font-size: var(--font-size-footer);
 }
 
 .footer p a {
-    color: var(--green); 
     font-weight: unset;
     transition: .5s;
 }
