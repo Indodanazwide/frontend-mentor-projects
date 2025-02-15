@@ -1,0 +1,74 @@
+:root {
+    --very-dark-gray: hsl(0, 0%, 17%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --white: #ffffff;
+    --black: #000000;
+
+    --font-family: 'Rubik', sans-serif;
+    --font-size-body: 18px;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-bold);
+    color: var(--white);
+}
+
+header, aside, main, footer {
+    min-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    min-height: 30vh;
+    background-image: url('./images/pattern-bg-desktop.png');
+}
+
+.search {
+    min-width: 100%;
+    margin-block: 1rem;
+}
+
+.search input, .search button {
+    font-weight: var(--font-weight-medium);
+    border: transparent;
+    min-height: 2rem;
+}
+
+.search input {
+    color: var(--dark-gray);
+    border-radius: .5rem 0 0 .5rem;
+    padding: .5rem 1.5rem;
+    min-width: 30rem;
+}
+
+.search button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 0 .5rem .5rem 0;
+    min-width: 2rem;
+}
+
+aside {
+    display: none;
+}
